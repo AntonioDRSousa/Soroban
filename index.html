@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Soroban</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+	<h1 class="title">
+		SOROBAN
+	</h1>
+	
+	<div class="div-b">
+		<button class="b" onclick="five(0);">+/-5</button>
+		<button class="b" onclick="five(1);">+/-5</button>
+		<button class="b" onclick="five(2);">+/-5</button>
+		<button class="b" onclick="five(3);">+/-5</button>
+		<button class="b" onclick="five(4);">+/-5</button>
+		<button class="b" onclick="five(5);">+/-5</button>
+		<button class="b" onclick="five(6);">+/-5</button>
+		<button class="b" onclick="five(7);">+/-5</button>
+		<button class="b" onclick="five(8);">+/-5</button>
+		<button class="b" onclick="five(9);">+/-5</button>
+		<button class="b" onclick="five(10);">+/-5</button>
+	</div>
+	
+	<div class="div-canvas">
+	<canvas id="canvas" width="600" height="300" style="border:10px solid #000000; background-color: gray;"></canvas>
+	</div>
+	
+	<div class="div-b">
+		<button class="b" onclick="up(0);">+1</button>
+		<button class="b" onclick="up(1);">+1</button>
+		<button class="b" onclick="up(2);">+1</button>
+		<button class="b" onclick="up(3);">+1</button>
+		<button class="b" onclick="up(4);">+1</button>
+		<button class="b" onclick="up(5);">+1</button>
+		<button class="b" onclick="up(6);">+1</button>
+		<button class="b" onclick="up(7);">+1</button>
+		<button class="b" onclick="up(8);">+1</button>
+		<button class="b" onclick="up(9);">+1</button>
+		<button class="b" onclick="up(10);">+1</button>
+	</div>
+	
+	<div class="div-b">
+		<button class="b" onclick="down(0);">-1</button>
+		<button class="b" onclick="down(1);">-1</button>
+		<button class="b" onclick="down(2);">-1</button>
+		<button class="b" onclick="down(3);">-1</button>
+		<button class="b" onclick="down(4);">-1</button>
+		<button class="b" onclick="down(5);">-1</button>
+		<button class="b" onclick="down(6);">-1</button>
+		<button class="b" onclick="down(7);">-1</button>
+		<button class="b" onclick="down(8);">-1</button>
+		<button class="b" onclick="down(9);">-1</button>
+		<button class="b" onclick="down(10);">-1</button>
+	</div>
+	
+	<div class="in">
+			<input class="inin" id="inread" type:"text" value="0"></input>
+			<button onclick="read();">Read</button>
+	</div>
+	
+	<script src="soroban.js"></script>
+</body>
+</html>
